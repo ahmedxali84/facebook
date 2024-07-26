@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(233, 232, 232);
+}
+.main{
+    border: 2px solid white;
+    width: 250px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    margin-left:50%;
+    margin-top: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+input[type="text"] 
+{
+    border-color: rgb(183, 181, 181);
+    width: 100%;
+    margin-bottom: 4px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+input[type="password"]
+{
+    border-color: rgb(183, 181, 181);
+    width: 100%;
+    margin-bottom: 4px;
+    padding-bottom: 5px; 
+    padding-top: 5px;
+}
+input[type="submit"]
+{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 7px;
+    margin-top: 8px;
+    padding-top: 4px;
+    margin-bottom: 4px;
+    height: 34px;
+    cursor: pointer;
+}
+input[type="button"]
+{
+    margin-top: 50px;
+    background-color: green;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+.forgottenpassword {
+ text-align: center;
+ font-size: 13px;
+ padding-top: 7px;
+}
+h1{
+    position: absolute;
+    left: 200px;
+    color: blue;
+    font-size: 60px;
+}
+p {
+    position: absolute;
+    left: 200px;
+    bottom: 350px;
+}
+a:hover {
+    color: orange;
+}
+a:active{
+    color: brown;
+}
+
